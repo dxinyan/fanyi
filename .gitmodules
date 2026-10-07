@@ -1,0 +1,7 @@
+[submodule "bilingual-paper-reader"]
+	path = bilingual-paper-reader
+	url = https://github.com/fff0301/Bilingual-Paper-Reader.git
+
+[submodule "translate-academic-paper"]
+	path = translate-academic-paper
+	url = https://github.com/Zaious/translate-academic-paper.git
