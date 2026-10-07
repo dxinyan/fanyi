@@ -1,0 +1,19 @@
+【fanyi 论文排版双语翻译提示词】
+
+我要把一个学术 PDF 翻译成中英对照 HTML，请使用本仓库：
+translate-academic-paper
+
+请严格执行：
+1. 先读取 translate-academic-paper/SKILL.md。
+2. 再读取 translate-academic-paper/references/runbook.md。
+3. 按 runbook 先检查 PDF 类型、页码偏移、双栏情况和参考文献位置。
+4. 按章节逐段完整翻译，禁止摘要代替全文。
+5. 中文译文由你自己逐段完成，不要调用 Google Translate、DeepL 或其他机器翻译服务代翻。
+6. 每章完成后运行 check_translation.py 和 check_fidelity.py，失败必须修正后再继续。
+7. 最终使用 combine_paper.py 生成一个自包含 HTML。
+8. 默认生成中英对照视图，并保留纯中文、纯原文切换。
+9. 尽量保留图片、公式、表格、引用、双栏论文的阅读顺序。
+10. 最终告诉我生成文件的实际路径。
+
+PDF 文件：
+【把 PDF 的实际路径填在这里】
